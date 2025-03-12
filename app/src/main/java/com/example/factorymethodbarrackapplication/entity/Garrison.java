@@ -1,4 +1,10 @@
 package com.example.factorymethodbarrackapplication.entity;
 
-public class Garrison {
+import com.example.factorymethodbarrackapplication.entity.Squad
+public abstract class Garrison {
+    public abstract Squad createSquad();
+
+    public void trainUnit(String unitType) {
+
+    }
 }
