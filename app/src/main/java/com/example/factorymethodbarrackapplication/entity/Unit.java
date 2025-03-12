@@ -1,15 +1,17 @@
 package com.example.factorymethodbarrackapplication.entity;
 
+import java.io.Serializable;
+
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
-import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
 @Getter
 @Setter
 @Builder
-@RequiredArgsConstructor
-public class Unit {
+@AllArgsConstructor
+public class Unit implements Serializable {
     private String name;
 
     private float trainingTime;
@@ -22,13 +24,6 @@ public class Unit {
 
     public int resourceCost;
 
-
-    public Unit() {
-
-
-
-
-    }
 }
 
 

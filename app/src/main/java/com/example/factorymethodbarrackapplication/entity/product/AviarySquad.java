@@ -12,7 +12,7 @@ public class AviarySquad extends Squad {
                 .goldCost(280)
                 .lumberCost(70)
                 .trainingTime(45)
-                .icon("footman")
+                .icon("gryphonrider")
                 .resourceCost(4)
                 .build();
         Unit dragonHawkRider = Unit.builder()
@@ -20,7 +20,7 @@ public class AviarySquad extends Squad {
                 .goldCost(200)
                 .lumberCost(30)
                 .trainingTime(28)
-                .icon("footman")
+                .icon("dragonhawkrider")
                 .resourceCost(3)
                 .build();
         units.put("gryphonRider", gryphonRider);

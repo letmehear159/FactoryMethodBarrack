@@ -22,7 +22,7 @@ public class BarrackSquad extends Squad {
                 .goldCost(205)
                 .lumberCost(30)
                 .trainingTime(26)
-                .icon("footman")
+                .icon("rifleman")
                 .resourceCost(3)
                 .build();
         Unit knight = Unit.builder()
@@ -30,7 +30,7 @@ public class BarrackSquad extends Squad {
                 .goldCost(245)
                 .lumberCost(60)
                 .trainingTime(45)
-                .icon("footman")
+                .icon("knight")
                 .resourceCost(4)
                 .build();
 

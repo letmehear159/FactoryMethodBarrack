@@ -13,7 +13,7 @@ public class ArcaneSquad extends Squad {
                 .goldCost(135)
                 .lumberCost(10)
                 .trainingTime(28)
-                .icon("footman")
+                .icon("priest")
                 .resourceCost(2)
                 .build();
         Unit sorceress = Unit.builder()
@@ -21,7 +21,7 @@ public class ArcaneSquad extends Squad {
                 .goldCost(155)
                 .lumberCost(20)
                 .trainingTime(30)
-                .icon("footman")
+                .icon("sorceress")
                 .resourceCost(2)
                 .build();
         Unit spellBreaker = Unit.builder()
@@ -29,7 +29,7 @@ public class ArcaneSquad extends Squad {
                 .goldCost(215)
                 .lumberCost(30)
                 .trainingTime(28)
-                .icon("footman")
+                .icon("spellbreaker")
                 .resourceCost(3)
                 .build();
         units.put("priest", priest);

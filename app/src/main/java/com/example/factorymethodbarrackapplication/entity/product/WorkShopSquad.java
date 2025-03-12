@@ -12,7 +12,7 @@ public class WorkShopSquad extends Squad {
                 .goldCost(90)
                 .lumberCost(30)
                 .trainingTime(13)
-                .icon("footman")
+                .icon("flyingmachine")
                 .resourceCost(1)
                 .build();
         Unit mortarTeam = Unit.builder()
@@ -20,7 +20,7 @@ public class WorkShopSquad extends Squad {
                 .goldCost(180)
                 .lumberCost(70)
                 .trainingTime(40)
-                .icon("footman")
+                .icon("mortarteam")
                 .resourceCost(3)
                 .build();
 
@@ -29,7 +29,7 @@ public class WorkShopSquad extends Squad {
                 .goldCost(195)
                 .lumberCost(60)
                 .trainingTime(55)
-                .icon("footman")
+                .icon("siegeengine")
                 .resourceCost(3)
                 .build();
 
