@@ -20,7 +20,7 @@ public class ArcaneSquad extends Squad {
                 .name("Sorceress")
                 .goldCost(155)
                 .lumberCost(20)
-                .trainingTime(30)
+                .trainingTime(5)
                 .icon("sorceress")
                 .resourceCost(2)
                 .build();
@@ -28,7 +28,7 @@ public class ArcaneSquad extends Squad {
                 .name("SpellBreaker")
                 .goldCost(215)
                 .lumberCost(30)
-                .trainingTime(28)
+                .trainingTime(5)
                 .icon("spellbreaker")
                 .resourceCost(3)
                 .build();

@@ -24,6 +24,8 @@ public class Unit implements Serializable {
 
     public int resourceCost;
 
+    public String sound;
+
 }
 
 

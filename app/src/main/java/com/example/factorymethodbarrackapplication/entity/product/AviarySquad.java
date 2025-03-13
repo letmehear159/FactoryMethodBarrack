@@ -11,7 +11,7 @@ public class AviarySquad extends Squad {
                 .name("GryphonRider")
                 .goldCost(280)
                 .lumberCost(70)
-                .trainingTime(45)
+                .trainingTime(5)
                 .icon("gryphonrider")
                 .resourceCost(4)
                 .build();
@@ -19,7 +19,7 @@ public class AviarySquad extends Squad {
                 .name("DragonHawkRider")
                 .goldCost(200)
                 .lumberCost(30)
-                .trainingTime(28)
+                .trainingTime(5)
                 .icon("dragonhawkrider")
                 .resourceCost(3)
                 .build();

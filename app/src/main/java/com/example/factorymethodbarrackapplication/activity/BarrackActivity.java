@@ -1,7 +1,11 @@
 package com.example.factorymethodbarrackapplication.activity;
 
+import static android.view.View.INVISIBLE;
+
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.ImageView;
+import android.widget.ProgressBar;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -47,11 +51,16 @@ public class BarrackActivity extends AppCompatActivity {
             }
         }
 
-        unitAdapter = new UnitAdapter(squad, this);
+        ProgressBar trainingProgressBar = findViewById(R.id.pbTraining);
+        trainingProgressBar.setVisibility(INVISIBLE);
+        ImageView ivTrainingUnit = findViewById(R.id.ivTrainingUnit);
+        unitAdapter = new UnitAdapter(squad, this, trainingProgressBar,ivTrainingUnit);
 
         unitRecycleView = findViewById(R.id.rvUnit);
         unitRecycleView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
         unitRecycleView.setAdapter(unitAdapter);
+
+
 
     }
 

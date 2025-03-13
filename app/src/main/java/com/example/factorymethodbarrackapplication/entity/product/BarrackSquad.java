@@ -13,8 +13,9 @@ public class BarrackSquad extends Squad {
                 .name("FootMan")
                 .goldCost(135)
                 .lumberCost(0)
-                .trainingTime(20)
+                .trainingTime(5)
                 .icon("footman")
+                .sound("footman")
                 .resourceCost(2)
                 .build();
         Unit rifleMan = Unit.builder()
